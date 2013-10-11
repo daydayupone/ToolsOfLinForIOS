@@ -56,7 +56,7 @@
     NSDateComponents *comps = [calendar components:unitFlags fromDate:date];
     
     intWeekday = [comps weekday];
-    
+
     return intWeekday;
 }
 
