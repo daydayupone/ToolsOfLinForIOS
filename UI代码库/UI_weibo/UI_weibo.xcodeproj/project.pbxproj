@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F574F651765BE7500F36F55 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F574F641765BE7500F36F55 /* QuartzCore.framework */; };
+		0F7C5BF5175DD1F40086AB0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7C5BF4175DD1F40086AB0B /* UIKit.framework */; };
+		0F7C5BF7175DD1F40086AB0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7C5BF6175DD1F40086AB0B /* Foundation.framework */; };
+		0F7C5BF9175DD1F40086AB0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7C5BF8175DD1F40086AB0B /* CoreGraphics.framework */; };
+		0F7C5BFF175DD1F40086AB0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5BFD175DD1F40086AB0B /* InfoPlist.strings */; };
+		0F7C5C01175DD1F40086AB0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C5C00175DD1F40086AB0B /* main.m */; };
+		0F7C5C05175DD1F40086AB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C5C04175DD1F40086AB0B /* AppDelegate.m */; };
+		0F7C5C07175DD1F40086AB0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C06175DD1F40086AB0B /* Default.png */; };
+		0F7C5C09175DD1F40086AB0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C08175DD1F40086AB0B /* Default@2x.png */; };
+		0F7C5C0B175DD1F40086AB0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C0A175DD1F40086AB0B /* Default-568h@2x.png */; };
+		0F7C5C0E175DD1F40086AB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C5C0D175DD1F40086AB0B /* ViewController.m */; };
+		0F7C5C11175DD1F40086AB0B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C0F175DD1F40086AB0B /* ViewController.xib */; };
+		0F7C5C19175DD2280086AB0B /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C5C18175DD2280086AB0B /* myCell.m */; };
+		0F7C5C1C175DD5930086AB0B /* WeiBo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C5C1B175DD5930086AB0B /* WeiBo.m */; };
+		0F7C5C24175DD6B40086AB0B /* 1001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C1D175DD6B40086AB0B /* 1001.jpg */; };
+		0F7C5C25175DD6B40086AB0B /* 1002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C1E175DD6B40086AB0B /* 1002.jpg */; };
+		0F7C5C26175DD6B40086AB0B /* 1003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C1F175DD6B40086AB0B /* 1003.jpg */; };
+		0F7C5C27175DD6B40086AB0B /* 1004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C20175DD6B40086AB0B /* 1004.jpg */; };
+		0F7C5C28175DD6B40086AB0B /* 1006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C21175DD6B40086AB0B /* 1006.jpg */; };
+		0F7C5C29175DD6B40086AB0B /* 1007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C22175DD6B40086AB0B /* 1007.jpg */; };
+		0F7C5C2A175DD6B40086AB0B /* 1008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C23175DD6B40086AB0B /* 1008.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F574F641765BE7500F36F55 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F7C5BF1175DD1F40086AB0B /* UI_weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7C5BF4175DD1F40086AB0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F7C5BF6175DD1F40086AB0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F7C5BF8175DD1F40086AB0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F7C5BFC175DD1F40086AB0B /* UI_weibo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UI_weibo-Info.plist"; sourceTree = "<group>"; };
+		0F7C5BFE175DD1F40086AB0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F7C5C00175DD1F40086AB0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F7C5C02175DD1F40086AB0B /* UI_weibo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UI_weibo-Prefix.pch"; sourceTree = "<group>"; };
+		0F7C5C03175DD1F40086AB0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F7C5C04175DD1F40086AB0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F7C5C06175DD1F40086AB0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F7C5C08175DD1F40086AB0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F7C5C0A175DD1F40086AB0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F7C5C0C175DD1F40086AB0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F7C5C0D175DD1F40086AB0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F7C5C10175DD1F40086AB0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0F7C5C17175DD2280086AB0B /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		0F7C5C18175DD2280086AB0B /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
+		0F7C5C1A175DD5930086AB0B /* WeiBo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBo.h; sourceTree = "<group>"; };
+		0F7C5C1B175DD5930086AB0B /* WeiBo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBo.m; sourceTree = "<group>"; };
+		0F7C5C1D175DD6B40086AB0B /* 1001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1001.jpg; sourceTree = "<group>"; };
+		0F7C5C1E175DD6B40086AB0B /* 1002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1002.jpg; sourceTree = "<group>"; };
+		0F7C5C1F175DD6B40086AB0B /* 1003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1003.jpg; sourceTree = "<group>"; };
+		0F7C5C20175DD6B40086AB0B /* 1004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1004.jpg; sourceTree = "<group>"; };
+		0F7C5C21175DD6B40086AB0B /* 1006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1006.jpg; sourceTree = "<group>"; };
+		0F7C5C22175DD6B40086AB0B /* 1007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1007.jpg; sourceTree = "<group>"; };
+		0F7C5C23175DD6B40086AB0B /* 1008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1008.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7C5BEE175DD1F40086AB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F574F651765BE7500F36F55 /* QuartzCore.framework in Frameworks */,
+				0F7C5BF5175DD1F40086AB0B /* UIKit.framework in Frameworks */,
+				0F7C5BF7175DD1F40086AB0B /* Foundation.framework in Frameworks */,
+				0F7C5BF9175DD1F40086AB0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7C5BE8175DD1F40086AB0B = {
+			isa = PBXGroup;
+			children = (
+				0F574F641765BE7500F36F55 /* QuartzCore.framework */,
+				0F7C5C1D175DD6B40086AB0B /* 1001.jpg */,
+				0F7C5C1E175DD6B40086AB0B /* 1002.jpg */,
+				0F7C5C1F175DD6B40086AB0B /* 1003.jpg */,
+				0F7C5C20175DD6B40086AB0B /* 1004.jpg */,
+				0F7C5C21175DD6B40086AB0B /* 1006.jpg */,
+				0F7C5C22175DD6B40086AB0B /* 1007.jpg */,
+				0F7C5C23175DD6B40086AB0B /* 1008.jpg */,
+				0F7C5BFA175DD1F40086AB0B /* UI_weibo */,
+				0F7C5BF3175DD1F40086AB0B /* Frameworks */,
+				0F7C5BF2175DD1F40086AB0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F7C5BF2175DD1F40086AB0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C5BF1175DD1F40086AB0B /* UI_weibo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F7C5BF3175DD1F40086AB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C5BF4175DD1F40086AB0B /* UIKit.framework */,
+				0F7C5BF6175DD1F40086AB0B /* Foundation.framework */,
+				0F7C5BF8175DD1F40086AB0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F7C5BFA175DD1F40086AB0B /* UI_weibo */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C5C03175DD1F40086AB0B /* AppDelegate.h */,
+				0F7C5C04175DD1F40086AB0B /* AppDelegate.m */,
+				0F7C5C0C175DD1F40086AB0B /* ViewController.h */,
+				0F7C5C0D175DD1F40086AB0B /* ViewController.m */,
+				0F7C5C17175DD2280086AB0B /* myCell.h */,
+				0F7C5C18175DD2280086AB0B /* myCell.m */,
+				0F7C5C1A175DD5930086AB0B /* WeiBo.h */,
+				0F7C5C1B175DD5930086AB0B /* WeiBo.m */,
+				0F7C5C0F175DD1F40086AB0B /* ViewController.xib */,
+				0F7C5BFB175DD1F40086AB0B /* Supporting Files */,
+			);
+			path = UI_weibo;
+			sourceTree = "<group>";
+		};
+		0F7C5BFB175DD1F40086AB0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C5BFC175DD1F40086AB0B /* UI_weibo-Info.plist */,
+				0F7C5BFD175DD1F40086AB0B /* InfoPlist.strings */,
+				0F7C5C00175DD1F40086AB0B /* main.m */,
+				0F7C5C02175DD1F40086AB0B /* UI_weibo-Prefix.pch */,
+				0F7C5C06175DD1F40086AB0B /* Default.png */,
+				0F7C5C08175DD1F40086AB0B /* Default@2x.png */,
+				0F7C5C0A175DD1F40086AB0B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F7C5BF0175DD1F40086AB0B /* UI_weibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7C5C14175DD1F40086AB0B /* Build configuration list for PBXNativeTarget "UI_weibo" */;
+			buildPhases = (
+				0F7C5BED175DD1F40086AB0B /* Sources */,
+				0F7C5BEE175DD1F40086AB0B /* Frameworks */,
+				0F7C5BEF175DD1F40086AB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UI_weibo;
+			productName = UI_weibo;
+			productReference = 0F7C5BF1175DD1F40086AB0B /* UI_weibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F7C5BE9175DD1F40086AB0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LJY;
+			};
+			buildConfigurationList = 0F7C5BEC175DD1F40086AB0B /* Build configuration list for PBXProject "UI_weibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F7C5BE8175DD1F40086AB0B;
+			productRefGroup = 0F7C5BF2175DD1F40086AB0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7C5BF0175DD1F40086AB0B /* UI_weibo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7C5BEF175DD1F40086AB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7C5BFF175DD1F40086AB0B /* InfoPlist.strings in Resources */,
+				0F7C5C07175DD1F40086AB0B /* Default.png in Resources */,
+				0F7C5C09175DD1F40086AB0B /* Default@2x.png in Resources */,
+				0F7C5C0B175DD1F40086AB0B /* Default-568h@2x.png in Resources */,
+				0F7C5C11175DD1F40086AB0B /* ViewController.xib in Resources */,
+				0F7C5C24175DD6B40086AB0B /* 1001.jpg in Resources */,
+				0F7C5C25175DD6B40086AB0B /* 1002.jpg in Resources */,
+				0F7C5C26175DD6B40086AB0B /* 1003.jpg in Resources */,
+				0F7C5C27175DD6B40086AB0B /* 1004.jpg in Resources */,
+				0F7C5C28175DD6B40086AB0B /* 1006.jpg in Resources */,
+				0F7C5C29175DD6B40086AB0B /* 1007.jpg in Resources */,
+				0F7C5C2A175DD6B40086AB0B /* 1008.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7C5BED175DD1F40086AB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7C5C01175DD1F40086AB0B /* main.m in Sources */,
+				0F7C5C05175DD1F40086AB0B /* AppDelegate.m in Sources */,
+				0F7C5C0E175DD1F40086AB0B /* ViewController.m in Sources */,
+				0F7C5C19175DD2280086AB0B /* myCell.m in Sources */,
+				0F7C5C1C175DD5930086AB0B /* WeiBo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F7C5BFD175DD1F40086AB0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7C5BFE175DD1F40086AB0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F7C5C0F175DD1F40086AB0B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7C5C10175DD1F40086AB0B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F7C5C12175DD1F40086AB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F7C5C13175DD1F40086AB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7C5C15175DD1F40086AB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UI_weibo/UI_weibo-Prefix.pch";
+				INFOPLIST_FILE = "UI_weibo/UI_weibo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F7C5C16175DD1F40086AB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UI_weibo/UI_weibo-Prefix.pch";
+				INFOPLIST_FILE = "UI_weibo/UI_weibo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7C5BEC175DD1F40086AB0B /* Build configuration list for PBXProject "UI_weibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7C5C12175DD1F40086AB0B /* Debug */,
+				0F7C5C13175DD1F40086AB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7C5C14175DD1F40086AB0B /* Build configuration list for PBXNativeTarget "UI_weibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7C5C15175DD1F40086AB0B /* Debug */,
+				0F7C5C16175DD1F40086AB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F7C5BE9175DD1F40086AB0B /* Project object */;
+}

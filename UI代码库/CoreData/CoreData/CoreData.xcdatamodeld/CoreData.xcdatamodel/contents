@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12C3103" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Book" representedClassName="Book" syncable="YES">
+        <attribute name="bauthor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bface" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="bflag1" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="bflag2" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="bid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="binfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bpdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bpublish" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="btitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Book" positionX="160" positionY="192" width="128" height="180"/>
+    </elements>
+</model>

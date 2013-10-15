@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FFC7445177430C800174A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFC7444177430C800174A25 /* UIKit.framework */; };
+		0FFC7447177430C800174A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFC7446177430C800174A25 /* Foundation.framework */; };
+		0FFC7449177430C800174A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFC7448177430C800174A25 /* CoreGraphics.framework */; };
+		0FFC744F177430C800174A25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC744D177430C800174A25 /* InfoPlist.strings */; };
+		0FFC7451177430C800174A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC7450177430C800174A25 /* main.m */; };
+		0FFC7455177430C800174A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC7454177430C800174A25 /* AppDelegate.m */; };
+		0FFC7457177430C800174A25 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC7456177430C800174A25 /* Default.png */; };
+		0FFC7459177430C800174A25 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC7458177430C800174A25 /* Default@2x.png */; };
+		0FFC745B177430C800174A25 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC745A177430C800174A25 /* Default-568h@2x.png */; };
+		0FFC745E177430C800174A25 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC745C177430C800174A25 /* MainStoryboard.storyboard */; };
+		0FFC7461177430C800174A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC7460177430C800174A25 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FFC7441177430C800174A25 /* HanZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FFC7444177430C800174A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FFC7446177430C800174A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FFC7448177430C800174A25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FFC744C177430C800174A25 /* HanZi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HanZi-Info.plist"; sourceTree = "<group>"; };
+		0FFC744E177430C800174A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FFC7450177430C800174A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FFC7452177430C800174A25 /* HanZi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HanZi-Prefix.pch"; sourceTree = "<group>"; };
+		0FFC7453177430C800174A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FFC7454177430C800174A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FFC7456177430C800174A25 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0FFC7458177430C800174A25 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0FFC745A177430C800174A25 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0FFC745D177430C800174A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0FFC745F177430C800174A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FFC7460177430C800174A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FFC743E177430C800174A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFC7445177430C800174A25 /* UIKit.framework in Frameworks */,
+				0FFC7447177430C800174A25 /* Foundation.framework in Frameworks */,
+				0FFC7449177430C800174A25 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFC7438177430C800174A25 = {
+			isa = PBXGroup;
+			children = (
+				0FFC744A177430C800174A25 /* HanZi */,
+				0FFC7443177430C800174A25 /* Frameworks */,
+				0FFC7442177430C800174A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FFC7442177430C800174A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC7441177430C800174A25 /* HanZi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FFC7443177430C800174A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC7444177430C800174A25 /* UIKit.framework */,
+				0FFC7446177430C800174A25 /* Foundation.framework */,
+				0FFC7448177430C800174A25 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FFC744A177430C800174A25 /* HanZi */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC7453177430C800174A25 /* AppDelegate.h */,
+				0FFC7454177430C800174A25 /* AppDelegate.m */,
+				0FFC745C177430C800174A25 /* MainStoryboard.storyboard */,
+				0FFC745F177430C800174A25 /* ViewController.h */,
+				0FFC7460177430C800174A25 /* ViewController.m */,
+				0FFC744B177430C800174A25 /* Supporting Files */,
+			);
+			path = HanZi;
+			sourceTree = "<group>";
+		};
+		0FFC744B177430C800174A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC744C177430C800174A25 /* HanZi-Info.plist */,
+				0FFC744D177430C800174A25 /* InfoPlist.strings */,
+				0FFC7450177430C800174A25 /* main.m */,
+				0FFC7452177430C800174A25 /* HanZi-Prefix.pch */,
+				0FFC7456177430C800174A25 /* Default.png */,
+				0FFC7458177430C800174A25 /* Default@2x.png */,
+				0FFC745A177430C800174A25 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FFC7440177430C800174A25 /* HanZi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FFC7464177430C800174A25 /* Build configuration list for PBXNativeTarget "HanZi" */;
+			buildPhases = (
+				0FFC743D177430C800174A25 /* Sources */,
+				0FFC743E177430C800174A25 /* Frameworks */,
+				0FFC743F177430C800174A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanZi;
+			productName = HanZi;
+			productReference = 0FFC7441177430C800174A25 /* HanZi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FFC7439177430C800174A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zzl;
+			};
+			buildConfigurationList = 0FFC743C177430C800174A25 /* Build configuration list for PBXProject "HanZi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FFC7438177430C800174A25;
+			productRefGroup = 0FFC7442177430C800174A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FFC7440177430C800174A25 /* HanZi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FFC743F177430C800174A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFC744F177430C800174A25 /* InfoPlist.strings in Resources */,
+				0FFC7457177430C800174A25 /* Default.png in Resources */,
+				0FFC7459177430C800174A25 /* Default@2x.png in Resources */,
+				0FFC745B177430C800174A25 /* Default-568h@2x.png in Resources */,
+				0FFC745E177430C800174A25 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FFC743D177430C800174A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFC7451177430C800174A25 /* main.m in Sources */,
+				0FFC7455177430C800174A25 /* AppDelegate.m in Sources */,
+				0FFC7461177430C800174A25 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FFC744D177430C800174A25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FFC744E177430C800174A25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FFC745C177430C800174A25 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FFC745D177430C800174A25 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FFC7462177430C800174A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FFC7463177430C800174A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FFC7465177430C800174A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HanZi/HanZi-Prefix.pch";
+				INFOPLIST_FILE = "HanZi/HanZi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FFC7466177430C800174A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HanZi/HanZi-Prefix.pch";
+				INFOPLIST_FILE = "HanZi/HanZi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FFC743C177430C800174A25 /* Build configuration list for PBXProject "HanZi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFC7462177430C800174A25 /* Debug */,
+				0FFC7463177430C800174A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FFC7464177430C800174A25 /* Build configuration list for PBXNativeTarget "HanZi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFC7465177430C800174A25 /* Debug */,
+				0FFC7466177430C800174A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FFC7439177430C800174A25 /* Project object */;
+}

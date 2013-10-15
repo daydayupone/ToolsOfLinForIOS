@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1130021760137000FB013E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1130001760137000FB013E /* TableViewController.m */; };
+		0F1130031760137000FB013E /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F1130011760137000FB013E /* TableViewController.xib */; };
+		0F7C5BC6175DCEFE0086AB0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7C5BC5175DCEFE0086AB0B /* UIKit.framework */; };
+		0F7C5BC8175DCEFE0086AB0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7C5BC7175DCEFE0086AB0B /* Foundation.framework */; };
+		0F7C5BCA175DCEFE0086AB0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7C5BC9175DCEFE0086AB0B /* CoreGraphics.framework */; };
+		0F7C5BD0175DCEFE0086AB0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5BCE175DCEFE0086AB0B /* InfoPlist.strings */; };
+		0F7C5BD2175DCEFE0086AB0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C5BD1175DCEFE0086AB0B /* main.m */; };
+		0F7C5BD6175DCEFE0086AB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C5BD5175DCEFE0086AB0B /* AppDelegate.m */; };
+		0F7C5BD8175DCEFE0086AB0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5BD7175DCEFE0086AB0B /* Default.png */; };
+		0F7C5BDA175DCEFE0086AB0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5BD9175DCEFE0086AB0B /* Default@2x.png */; };
+		0F7C5BDC175DCEFE0086AB0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5BDB175DCEFE0086AB0B /* Default-568h@2x.png */; };
+		0F7C5BDF175DCEFE0086AB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C5BDE175DCEFE0086AB0B /* ViewController.m */; };
+		0F7C5BE2175DCEFE0086AB0B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5BE0175DCEFE0086AB0B /* ViewController.xib */; };
+		0F7C5C31175E22510086AB0B /* SaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C5C2F175E22510086AB0B /* SaveViewController.m */; };
+		0F7C5C32175E22510086AB0B /* SaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7C5C30175E22510086AB0B /* SaveViewController.xib */; };
+		0FE90A08175EC9E300B704A9 /* weblist.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0FE90A07175EC9E300B704A9 /* weblist.sqlite */; };
+		0FE90A0C175ECA2C00B704A9 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE90A0B175ECA2C00B704A9 /* Connection.m */; };
+		0FE90A0F175ECA3A00B704A9 /* Web.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE90A0E175ECA3A00B704A9 /* Web.m */; };
+		0FE90A11175ECAD400B704A9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE90A10175ECAD400B704A9 /* libsqlite3.dylib */; };
+		0FE90ABC175F6E9000B704A9 /* FevoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE90ABA175F6E8F00B704A9 /* FevoreViewController.m */; };
+		0FE90ABD175F6E9000B704A9 /* FevoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE90ABB175F6E9000B704A9 /* FevoreViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F112FFF1760137000FB013E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0F1130001760137000FB013E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		0F1130011760137000FB013E /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		0F7C5BC2175DCEFE0086AB0B /* Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Safari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7C5BC5175DCEFE0086AB0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F7C5BC7175DCEFE0086AB0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F7C5BC9175DCEFE0086AB0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F7C5BCD175DCEFE0086AB0B /* Safari-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Safari-Info.plist"; sourceTree = "<group>"; };
+		0F7C5BCF175DCEFE0086AB0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F7C5BD1175DCEFE0086AB0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F7C5BD3175DCEFE0086AB0B /* Safari-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Safari-Prefix.pch"; sourceTree = "<group>"; };
+		0F7C5BD4175DCEFE0086AB0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F7C5BD5175DCEFE0086AB0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F7C5BD7175DCEFE0086AB0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F7C5BD9175DCEFE0086AB0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F7C5BDB175DCEFE0086AB0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F7C5BDD175DCEFE0086AB0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F7C5BDE175DCEFE0086AB0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F7C5BE1175DCEFE0086AB0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0F7C5C2E175E22510086AB0B /* SaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveViewController.h; sourceTree = "<group>"; };
+		0F7C5C2F175E22510086AB0B /* SaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveViewController.m; sourceTree = "<group>"; };
+		0F7C5C30175E22510086AB0B /* SaveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaveViewController.xib; sourceTree = "<group>"; };
+		0FE90A07175EC9E300B704A9 /* weblist.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = weblist.sqlite; sourceTree = "<group>"; };
+		0FE90A0A175ECA2C00B704A9 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		0FE90A0B175ECA2C00B704A9 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		0FE90A0D175ECA3A00B704A9 /* Web.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Web.h; sourceTree = "<group>"; };
+		0FE90A0E175ECA3A00B704A9 /* Web.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Web.m; sourceTree = "<group>"; };
+		0FE90A10175ECAD400B704A9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0FE90AB9175F6E8F00B704A9 /* FevoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FevoreViewController.h; sourceTree = "<group>"; };
+		0FE90ABA175F6E8F00B704A9 /* FevoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FevoreViewController.m; sourceTree = "<group>"; };
+		0FE90ABB175F6E9000B704A9 /* FevoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FevoreViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7C5BBF175DCEFE0086AB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE90A11175ECAD400B704A9 /* libsqlite3.dylib in Frameworks */,
+				0F7C5BC6175DCEFE0086AB0B /* UIKit.framework in Frameworks */,
+				0F7C5BC8175DCEFE0086AB0B /* Foundation.framework in Frameworks */,
+				0F7C5BCA175DCEFE0086AB0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7C5BB9175DCEFE0086AB0B = {
+			isa = PBXGroup;
+			children = (
+				0FE90A10175ECAD400B704A9 /* libsqlite3.dylib */,
+				0FE90A07175EC9E300B704A9 /* weblist.sqlite */,
+				0F7C5BCB175DCEFE0086AB0B /* Safari */,
+				0F7C5BC4175DCEFE0086AB0B /* Frameworks */,
+				0F7C5BC3175DCEFE0086AB0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F7C5BC3175DCEFE0086AB0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C5BC2175DCEFE0086AB0B /* Safari.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F7C5BC4175DCEFE0086AB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C5BC5175DCEFE0086AB0B /* UIKit.framework */,
+				0F7C5BC7175DCEFE0086AB0B /* Foundation.framework */,
+				0F7C5BC9175DCEFE0086AB0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F7C5BCB175DCEFE0086AB0B /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				0FE90A09175EC9F400B704A9 /* Data */,
+				0F7C5BD4175DCEFE0086AB0B /* AppDelegate.h */,
+				0F7C5BD5175DCEFE0086AB0B /* AppDelegate.m */,
+				0F7C5C2E175E22510086AB0B /* SaveViewController.h */,
+				0F7C5C2F175E22510086AB0B /* SaveViewController.m */,
+				0F7C5C30175E22510086AB0B /* SaveViewController.xib */,
+				0FE90AB9175F6E8F00B704A9 /* FevoreViewController.h */,
+				0FE90ABA175F6E8F00B704A9 /* FevoreViewController.m */,
+				0FE90ABB175F6E9000B704A9 /* FevoreViewController.xib */,
+				0F112FFF1760137000FB013E /* TableViewController.h */,
+				0F1130001760137000FB013E /* TableViewController.m */,
+				0F1130011760137000FB013E /* TableViewController.xib */,
+				0F7C5BDD175DCEFE0086AB0B /* ViewController.h */,
+				0F7C5BDE175DCEFE0086AB0B /* ViewController.m */,
+				0F7C5BE0175DCEFE0086AB0B /* ViewController.xib */,
+				0F7C5BCC175DCEFE0086AB0B /* Supporting Files */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		0F7C5BCC175DCEFE0086AB0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C5BCD175DCEFE0086AB0B /* Safari-Info.plist */,
+				0F7C5BCE175DCEFE0086AB0B /* InfoPlist.strings */,
+				0F7C5BD1175DCEFE0086AB0B /* main.m */,
+				0F7C5BD3175DCEFE0086AB0B /* Safari-Prefix.pch */,
+				0F7C5BD7175DCEFE0086AB0B /* Default.png */,
+				0F7C5BD9175DCEFE0086AB0B /* Default@2x.png */,
+				0F7C5BDB175DCEFE0086AB0B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FE90A09175EC9F400B704A9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0FE90A0A175ECA2C00B704A9 /* Connection.h */,
+				0FE90A0B175ECA2C00B704A9 /* Connection.m */,
+				0FE90A0D175ECA3A00B704A9 /* Web.h */,
+				0FE90A0E175ECA3A00B704A9 /* Web.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F7C5BC1175DCEFE0086AB0B /* Safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7C5BE5175DCEFE0086AB0B /* Build configuration list for PBXNativeTarget "Safari" */;
+			buildPhases = (
+				0F7C5BBE175DCEFE0086AB0B /* Sources */,
+				0F7C5BBF175DCEFE0086AB0B /* Frameworks */,
+				0F7C5BC0175DCEFE0086AB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Safari;
+			productName = Safari;
+			productReference = 0F7C5BC2175DCEFE0086AB0B /* Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F7C5BBA175DCEFE0086AB0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LJY;
+			};
+			buildConfigurationList = 0F7C5BBD175DCEFE0086AB0B /* Build configuration list for PBXProject "Safari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F7C5BB9175DCEFE0086AB0B;
+			productRefGroup = 0F7C5BC3175DCEFE0086AB0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7C5BC1175DCEFE0086AB0B /* Safari */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7C5BC0175DCEFE0086AB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7C5BD0175DCEFE0086AB0B /* InfoPlist.strings in Resources */,
+				0F7C5BD8175DCEFE0086AB0B /* Default.png in Resources */,
+				0F7C5BDA175DCEFE0086AB0B /* Default@2x.png in Resources */,
+				0F7C5BDC175DCEFE0086AB0B /* Default-568h@2x.png in Resources */,
+				0F7C5BE2175DCEFE0086AB0B /* ViewController.xib in Resources */,
+				0F7C5C32175E22510086AB0B /* SaveViewController.xib in Resources */,
+				0FE90A08175EC9E300B704A9 /* weblist.sqlite in Resources */,
+				0FE90ABD175F6E9000B704A9 /* FevoreViewController.xib in Resources */,
+				0F1130031760137000FB013E /* TableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7C5BBE175DCEFE0086AB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7C5BD2175DCEFE0086AB0B /* main.m in Sources */,
+				0F7C5BD6175DCEFE0086AB0B /* AppDelegate.m in Sources */,
+				0F7C5BDF175DCEFE0086AB0B /* ViewController.m in Sources */,
+				0F7C5C31175E22510086AB0B /* SaveViewController.m in Sources */,
+				0FE90A0C175ECA2C00B704A9 /* Connection.m in Sources */,
+				0FE90A0F175ECA3A00B704A9 /* Web.m in Sources */,
+				0FE90ABC175F6E9000B704A9 /* FevoreViewController.m in Sources */,
+				0F1130021760137000FB013E /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F7C5BCE175DCEFE0086AB0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7C5BCF175DCEFE0086AB0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F7C5BE0175DCEFE0086AB0B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7C5BE1175DCEFE0086AB0B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F7C5BE3175DCEFE0086AB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F7C5BE4175DCEFE0086AB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7C5BE6175DCEFE0086AB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Safari/Safari-Prefix.pch";
+				INFOPLIST_FILE = "Safari/Safari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F7C5BE7175DCEFE0086AB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Safari/Safari-Prefix.pch";
+				INFOPLIST_FILE = "Safari/Safari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7C5BBD175DCEFE0086AB0B /* Build configuration list for PBXProject "Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7C5BE3175DCEFE0086AB0B /* Debug */,
+				0F7C5BE4175DCEFE0086AB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7C5BE5175DCEFE0086AB0B /* Build configuration list for PBXNativeTarget "Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7C5BE6175DCEFE0086AB0B /* Debug */,
+				0F7C5BE7175DCEFE0086AB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F7C5BBA175DCEFE0086AB0B /* Project object */;
+}
