@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>createDate</key>
+		<integer>1362738799000</integer>
+		<key>createUserId</key>
+		<string>58200</string>
+		<key>orgunitId</key>
+		<integer>1</integer>
+		<key>password</key>
+		<string>e10adc3949ba59abbe56e057f20f883e</string>
+		<key>photo</key>
+		<string>http://imgcdn1.gitom.com/group1/M00/02/69/OzkPqFKyjxOAP7A0AAA2N-7gWE0576.jpg</string>
+		<key>realname</key>
+		<string>马里</string>
+		<key>roleId</key>
+		<integer>1</integer>
+		<key>telephone</key>
+		<string>555555523</string>
+		<key>updateDate</key>
+		<integer>1387433862000</integer>
+		<key>updateUserId</key>
+		<string>58200</string>
+		<key>username</key>
+		<string>58200</string>
+	</dict>
+	<dict>
+		<key>createDate</key>
+		<integer>1387174599000</integer>
+		<key>orgunitId</key>
+		<integer>1</integer>
+		<key>password</key>
+		<string>E10ADC3949BA59ABBE56E057F20F883E</string>
+		<key>realname</key>
+		<string>哈哈</string>
+		<key>roleId</key>
+		<integer>4</integer>
+		<key>telephone</key>
+		<string>11111111111</string>
+		<key>updateDate</key>
+		<integer>1387175243000</integer>
+		<key>updateUserId</key>
+		<string>18960425949</string>
+		<key>username</key>
+		<string>18960425949</string>
+	</dict>
+</array>
+</plist>
