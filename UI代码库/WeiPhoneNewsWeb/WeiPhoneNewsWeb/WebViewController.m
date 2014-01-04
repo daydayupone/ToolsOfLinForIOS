@@ -39,7 +39,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor colorWithRed:98/255.0 green:98/255.0 blue:98/255.0  alpha:1];
     
-    self.title = @"威锋新闻";
+    self.title = @"爱疯新闻";
     
     //连接主页传送过来的网址
     NSLog(@"收到的网址%@",self.willToUrl);
@@ -143,49 +143,49 @@
     self.numberOfComment.text = [NSString stringWithFormat:@"玩家点评(%d)",self.commentArray.count];
     
     //评论列表
-    self.commentTable = [[UITableView alloc]initWithFrame:CGRectMake(11, 32, 310-22, 300) style:UITableViewStylePlain];
+    self.commentTable = [[UITableView alloc]initWithFrame:CGRectMake(11, 32, 310-22, 350) style:UITableViewStylePlain];
     self.commentTable.delegate = self;
     self.commentTable.dataSource =self;
     
-    //点击获得更多评论
-    self.moreCommentV = [[UIView alloc]initWithFrame:CGRectMake(11, 330, 280, 50)];
-    self.moreCommentV.layer.cornerRadius = 25;
-    self.moreCommentV.layer.borderWidth = 1;
-    self.moreCommentV.layer.borderColor = [UIColor grayColor].CGColor;
-    self.moreCommentV.backgroundColor = [UIColor whiteColor];
-    UIImageView *moreImage = [[UIImageView alloc]initWithFrame:CGRectMake(70, 12, 33, 30)];
-    //moreImage.mutableCopy
-    moreImage.image = [UIImage imageNamed:@"more.png"];
+//    //点击获得更多评论
+//    self.moreCommentV = [[UIView alloc]initWithFrame:CGRectMake(11, 330, 280, 50)];
+//    self.moreCommentV.layer.cornerRadius = 25;
+//    self.moreCommentV.layer.borderWidth = 1;
+//    self.moreCommentV.layer.borderColor = [UIColor grayColor].CGColor;
+//    self.moreCommentV.backgroundColor = [UIColor whiteColor];
+//    UIImageView *moreImage = [[UIImageView alloc]initWithFrame:CGRectMake(70, 12, 33, 30)];
+//    //moreImage.mutableCopy
+//    moreImage.image = [UIImage imageNamed:@"more.png"];
     
     
     
     
-    //"更多"按钮
-    self.moreCommentBT = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.moreCommentBT.frame = CGRectMake(100, 11, 80, 30);
-//    self.moreCommentBT.backgroundColor = [UIColor blackColor];
-    //    NSString *coStr = [NSString stringWithFormat:@"更多评论（%d）",self.commentArray.count];
-    [self.moreCommentBT setTitleColor:[UIColor colorWithRed:51.0f/255.0f green:51.0f/255.0f blue:51.0f/255.0f alpha:1.0] forState:UIControlStateNormal] ;
-    [self.moreCommentBT setTitle:@"更多评论" forState:UIControlStateNormal];
-    [self.moreCommentBT addTarget:self action:@selector(moreUserComment) forControlEvents:UIControlEventTouchUpInside];
-    //剩下的评论
-    self.moreComST = [[UILabel alloc]initWithFrame:CGRectMake(180, 10, 80, 30)];
-    _moreComST.textColor = [UIColor colorWithRed:99.0f/255.0f green:99.0f/255.0f blue:99.0f/255.0f alpha:1.0];
-    //moreComST.backgroundColor = [UIColor blackColor];//
-    NSString *mst = [NSString stringWithFormat:@"(%d)",self.commentArray.count-2];
-    _moreComST.text = mst;
+//    //"更多"按钮
+//    self.moreCommentBT = [UIButton buttonWithType:UIButtonTypeCustom];
+//    self.moreCommentBT.frame = CGRectMake(100, 11, 80, 30);
+////    self.moreCommentBT.backgroundColor = [UIColor blackColor];
+//    //    NSString *coStr = [NSString stringWithFormat:@"更多评论（%d）",self.commentArray.count];
+//    [self.moreCommentBT setTitleColor:[UIColor colorWithRed:51.0f/255.0f green:51.0f/255.0f blue:51.0f/255.0f alpha:1.0] forState:UIControlStateNormal] ;
+//    [self.moreCommentBT setTitle:@"更多评论" forState:UIControlStateNormal];
+//    [self.moreCommentBT addTarget:self action:@selector(moreUserComment) forControlEvents:UIControlEventTouchUpInside];
+//    //剩下的评论
+//    self.moreComST = [[UILabel alloc]initWithFrame:CGRectMake(180, 10, 80, 30)];
+//    _moreComST.textColor = [UIColor colorWithRed:99.0f/255.0f green:99.0f/255.0f blue:99.0f/255.0f alpha:1.0];
+//    //moreComST.backgroundColor = [UIColor blackColor];//
+//    NSString *mst = [NSString stringWithFormat:@"(%d)",self.commentArray.count-2];
+//    _moreComST.text = mst;
     
     
     
     //"同步推"
-    self.tbt = [[UILabel alloc]initWithFrame:CGRectZero];
-     _tbt.text = @"更多精彩咨询，请访问";
+    //self.tbt = [[UILabel alloc]initWithFrame:CGRectZero];
+     //_tbt.text = @"更多精彩咨询，请访问";
     //同步推链接
-    self.tbtWeb = [UIButton buttonWithType:UIButtonTypeCustom];
-   // self.tbtWeb.backgroundColor = [UIColor blackColor];
-    [self.tbtWeb  setTitleColor:[UIColor colorWithRed:1.0f/255.0f green:150.0f/255.0f blue:227.0f/255.0f alpha:1.0] forState:UIControlStateNormal] ;
-    [self.tbtWeb setTitle:@"http://news.tongbu.com/" forState:UIControlStateNormal];
-    [self.tbtWeb addTarget:self action:@selector(connectUrl) forControlEvents:UIControlEventTouchUpInside];
+//    self.tbtWeb = [UIButton buttonWithType:UIButtonTypeCustom];
+//   // self.tbtWeb.backgroundColor = [UIColor blackColor];
+//    [self.tbtWeb  setTitleColor:[UIColor colorWithRed:1.0f/255.0f green:150.0f/255.0f blue:227.0f/255.0f alpha:1.0] forState:UIControlStateNormal] ;
+//    [self.tbtWeb setTitle:@"猛撮这里" forState:UIControlStateNormal];
+//    [self.tbtWeb addTarget:self action:@selector(connectUrl) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.scrollView];
     [self.scrollView addSubview:_mainView];
@@ -204,25 +204,25 @@
     [self.commentView addSubview:self.moreCommentV];
     [self.moreCommentV addSubview:self.moreCommentBT];
     
-    [self.moreCommentV addSubview:moreImage];
+    //[self.moreCommentV addSubview:moreImage];
     [self.moreCommentV addSubview:_moreComST];
 }
 
 //更多评论内容
 - (void)moreUserComment
 {
-    NSLog(@"更多评论内容");
-    _addComment = self.commentArray.count -2;
-    NSLog(@"添加的评论：%d",self.commentArray.count -2);
-    self.moreComST.text = @" ";
-    [self.commentTable reloadData];
+//    NSLog(@"更多评论内容");
+//    _addComment = self.commentArray.count -2;
+//    NSLog(@"添加的评论：%d",self.commentArray.count -2);
+//    self.moreComST.text = @" ";
+//    [self.commentTable reloadData];
 }
 
 
 //同步推链接方法
 - (void)connectUrl
 {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://news.tongbu.com/"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://weibo.com/3169527311/profile?rightmod=1&wvr=5&mod=personinfo"]];
 }
 
 //返回主页方法
@@ -283,7 +283,7 @@
         self.jsResult = [[_commentArray objectAtIndex:i]objectForKey:@"content"];
         //NSString *js3 = [js2 objectForKey:@"content"];
         NSLog(@"评论：----------------%@",self.jsResult);
-        self.numberOfComment.text = [NSString stringWithFormat:@"玩家点评(%d)",self.commentArray.count];
+        self.numberOfComment.text = @"点评(%d)";
     }
 
 }
@@ -353,14 +353,19 @@
         TFHppleElement *element = [self.weiArrayt objectAtIndex:i];
         //单段落内容
         stb = [element content];
-        
+        if (stb==nil) {
+            stb= @".";
+        }
         element = [self.weiArrayt objectAtIndex:0];
         //单段落内容
         st = [element content];
-        //NSLog(@"段落内容：%@",st);
+        if (st==nil) {
+            st= @".";
+        }
+        NSLog(@"段落内容：%@",st);
         
         //拼接段落
-        [str appendString:stb];
+        [str appendString:st];
         
     }
         
@@ -495,7 +500,8 @@
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     
-    return 2+_addComment;//点击，查看更多的效果
+    //return 2+_addComment;//点击，查看更多的效果
+    return _commentArray.count;
     NSLog(@"添加的评论：%d",self.addComment);
     
 }
@@ -514,36 +520,46 @@
     }
     
     
-    NSLog(@"单元格--");
+    NSLog(@"单元格--%d",_commentArray.count);
     
     //用户名
-    NSString *name = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"user_name"];
-    cell.name.text = name;
+    if (_commentArray.count>1) {
+        NSString *name = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"user_name"];
+        cell.name.text = name;
+        //评论内容
+        NSString *comment = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"content"];
+        cell.comment.text = comment;
+        GetLabelHight *getHight = [[GetLabelHight alloc]init];
+        //调用单元格自适应方法
+        CGFloat comLBHigh = [getHight highOfLabel:cell.comment numberTextOfLabel:cell.comment.text andFontSize:12];
+        //得到单元格自适应的高
+        self.cellAddHight = comLBHigh;
+        
+        NSLog(@"comLBHigh :%f",comLBHigh);
+        cell.comment.frame = CGRectMake(cell.headImage.frame.size.width+11,11+25/2+cell.name.frame.size.height, 200, comLBHigh);
+        cell.sayImage.frame = CGRectMake(cell.comment.frame.origin.x, 25+cell.name.frame.size.height+cell.comment.frame.size.height+11, 120, 40);
+        
+        //评论时间
+        NSString *time = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"add_time"];//http://www.weiphone.com/apple/news/2013-06-18/Palo_Alto_will_welcome_Apple_store_cover_Microsoft_shop_light_556535.shtml error
+        
+        NSString *cstr = [[time componentsSeparatedByString:@"2013-"]objectAtIndex:1];
+        cell.time.text = cstr;
+        //cell.headImage.contentMode = UIViewContentModeScaleToFill;
+        
+        //其它
+        NSString *other1 = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"score_1"];
+        NSString *other2 = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"score_2"];
+        cell.other.text = [NSString stringWithFormat:@"   顶(%@)  踩(%@)",other1,other2];
+    }else{
+        cell.name.text = @" ";
+        cell.time.text = @" ";
+        cell.comment.text = @" ";
+        cell.other.text = @" ";
+        //cell.sayImage.t
+    }
     
-    //评论内容
-    NSString *comment = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"content"];
-    cell.comment.text = comment;
-    GetLabelHight *getHight = [[GetLabelHight alloc]init];
-    //调用单元格自适应方法
-    CGFloat comLBHigh = [getHight highOfLabel:cell.comment numberTextOfLabel:cell.comment.text andFontSize:12];
-    //得到单元格自适应的高
-    self.cellAddHight = comLBHigh;
     
-    NSLog(@"comLBHigh :%f",comLBHigh);
-    cell.comment.frame = CGRectMake(cell.headImage.frame.size.width+11,11+25/2+cell.name.frame.size.height, 200, comLBHigh);
-    cell.sayImage.frame = CGRectMake(cell.comment.frame.origin.x, 25+cell.name.frame.size.height+cell.comment.frame.size.height+11, 120, 40);
     
-    //评论时间
-    NSString *time = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"add_time"];//http://www.weiphone.com/apple/news/2013-06-18/Palo_Alto_will_welcome_Apple_store_cover_Microsoft_shop_light_556535.shtml error
-    
-    NSString *cstr = [[time componentsSeparatedByString:@"2013-"]objectAtIndex:1];
-    cell.time.text = cstr;
-    //cell.headImage.contentMode = UIViewContentModeScaleToFill;
-    
-    //其它
-    NSString *other1 = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"score_1"];
-    NSString *other2 = [[_commentArray objectAtIndex:indexPath.row]objectForKey:@"score_2"];
-    cell.other.text = [NSString stringWithFormat:@"   顶(%@)  踩(%@)",other1,other2];
     
     //获得当前评论内容的高度，赋值给cell，之后定制单元格高度的时候我们只要用到cell的高，其它参数设为0对单元格的定制是不会有影响的
     [cell setFrame:CGRectMake(0, 0, 0, self.cellAddHight)];

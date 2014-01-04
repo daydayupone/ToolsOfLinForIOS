@@ -26,6 +26,7 @@
     NSLog(@"anDate == %@",date);
     
     long long int dateToSeconde = [TimesTool getEndDateTimeMsWithNSDate:date];
+    self.seconds.text = [NSString stringWithFormat:@"%lld",dateToSeconde];
     NSLog(@"long long int second == %lld",dateToSeconde);
 }
 

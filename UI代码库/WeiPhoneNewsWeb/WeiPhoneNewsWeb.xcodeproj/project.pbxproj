@@ -45,7 +45,6 @@
 		0FFEEEDD177000A00073993E /* cell_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEEBC177000A00073993E /* cell_bg@2x.png */; };
 		0FFEEEDE177000A00073993E /* cell_bg_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEEBD177000A00073993E /* cell_bg_press.png */; };
 		0FFEEEDF177000A00073993E /* head1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEEBE177000A00073993E /* head1.png */; };
-		0FFEEEE0177000A00073993E /* iCon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEEBF177000A00073993E /* iCon.png */; };
 		0FFEEEE1177000A00073993E /* icon_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEEC0177000A00073993E /* icon_arrow_up.png */; };
 		0FFEEEE2177000A00073993E /* icon_arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEEC1177000A00073993E /* icon_arrow_up@2x.png */; };
 		0FFEEEE3177000A00073993E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEEC2177000A00073993E /* logo.png */; };
@@ -100,6 +99,12 @@
 		0FFEEF52177005B90073993E /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEF4F177005B90073993E /* more.png */; };
 		0FFEEF53177005B90073993E /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEF50177005B90073993E /* new.png */; };
 		0FFEEF5517701CC10073993E /* comment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEEF5417701CC10073993E /* comment.jpg */; };
+		97536EE51810DF7000F3CF62 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97536EE41810DF7000F3CF62 /* Icon.png */; };
+		97976E2F180FBD7D00EBBDF9 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97976E2C180FBD7D00EBBDF9 /* SVProgressHUD.bundle */; };
+		97976E30180FBD7D00EBBDF9 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 97976E2E180FBD7D00EBBDF9 /* SVProgressHUD.m */; };
+		97976E33180FC64200EBBDF9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97976E31180FC64200EBBDF9 /* Icon.png */; };
+		97976E34180FC64200EBBDF9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97976E32180FC64200EBBDF9 /* Icon@2x.png */; };
+		97976E36180FC6CD00EBBDF9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97976E35180FC6CD00EBBDF9 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,7 +161,6 @@
 		0FFEEEBC177000A00073993E /* cell_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_bg@2x.png"; sourceTree = "<group>"; };
 		0FFEEEBD177000A00073993E /* cell_bg_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_bg_press.png; sourceTree = "<group>"; };
 		0FFEEEBE177000A00073993E /* head1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head1.png; sourceTree = "<group>"; };
-		0FFEEEBF177000A00073993E /* iCon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iCon.png; sourceTree = "<group>"; };
 		0FFEEEC0177000A00073993E /* icon_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_up.png; sourceTree = "<group>"; };
 		0FFEEEC1177000A00073993E /* icon_arrow_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_up@2x.png"; sourceTree = "<group>"; };
 		0FFEEEC2177000A00073993E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
@@ -237,6 +241,13 @@
 		0FFEEF4F177005B90073993E /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
 		0FFEEF50177005B90073993E /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
 		0FFEEF5417701CC10073993E /* comment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comment.jpg; sourceTree = "<group>"; };
+		97536EE41810DF7000F3CF62 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		97976E2C180FBD7D00EBBDF9 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		97976E2D180FBD7D00EBBDF9 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		97976E2E180FBD7D00EBBDF9 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		97976E31180FC64200EBBDF9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		97976E32180FC64200EBBDF9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		97976E35180FC6CD00EBBDF9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +274,11 @@
 		0FFEEE4F176FFF430073993E = {
 			isa = PBXGroup;
 			children = (
+				97536EE41810DF7000F3CF62 /* Icon.png */,
+				97976E35180FC6CD00EBBDF9 /* Icon@2x.png */,
+				97976E2C180FBD7D00EBBDF9 /* SVProgressHUD.bundle */,
+				97976E2D180FBD7D00EBBDF9 /* SVProgressHUD.h */,
+				97976E2E180FBD7D00EBBDF9 /* SVProgressHUD.m */,
 				0FFEEF03177000B70073993E /* ASIHttpRequest */,
 				0FFEEF1B177000B70073993E /* EGO */,
 				0FFEEF27177000B70073993E /* JSON */,
@@ -338,6 +354,8 @@
 		0FFEEE62176FFF430073993E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				97976E31180FC64200EBBDF9 /* Icon.png */,
+				97976E32180FC64200EBBDF9 /* Icon@2x.png */,
 				0FFEEE63176FFF430073993E /* WeiPhoneNewsWeb-Info.plist */,
 				0FFEEE64176FFF430073993E /* InfoPlist.strings */,
 				0FFEEE67176FFF430073993E /* main.m */,
@@ -361,7 +379,6 @@
 				0FFEEEBC177000A00073993E /* cell_bg@2x.png */,
 				0FFEEEBD177000A00073993E /* cell_bg_press.png */,
 				0FFEEEBE177000A00073993E /* head1.png */,
-				0FFEEEBF177000A00073993E /* iCon.png */,
 				0FFEEEC0177000A00073993E /* icon_arrow_up.png */,
 				0FFEEEC1177000A00073993E /* icon_arrow_up@2x.png */,
 				0FFEEEC2177000A00073993E /* logo.png */,
@@ -562,7 +579,6 @@
 				0FFEEEDD177000A00073993E /* cell_bg@2x.png in Resources */,
 				0FFEEEDE177000A00073993E /* cell_bg_press.png in Resources */,
 				0FFEEEDF177000A00073993E /* head1.png in Resources */,
-				0FFEEEE0177000A00073993E /* iCon.png in Resources */,
 				0FFEEEE1177000A00073993E /* icon_arrow_up.png in Resources */,
 				0FFEEEE2177000A00073993E /* icon_arrow_up@2x.png in Resources */,
 				0FFEEEE3177000A00073993E /* logo.png in Resources */,
@@ -597,6 +613,11 @@
 				0FFEEF52177005B90073993E /* more.png in Resources */,
 				0FFEEF53177005B90073993E /* new.png in Resources */,
 				0FFEEF5517701CC10073993E /* comment.jpg in Resources */,
+				97976E2F180FBD7D00EBBDF9 /* SVProgressHUD.bundle in Resources */,
+				97976E33180FC64200EBBDF9 /* Icon.png in Resources */,
+				97976E34180FC64200EBBDF9 /* Icon@2x.png in Resources */,
+				97976E36180FC6CD00EBBDF9 /* Icon@2x.png in Resources */,
+				97536EE51810DF7000F3CF62 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +661,7 @@
 				0FFEEF48177000B70073993E /* SBJsonBase.m in Sources */,
 				0FFEEF49177000B70073993E /* SBJsonParser.m in Sources */,
 				0FFEEF4A177000B70073993E /* SBJsonWriter.m in Sources */,
+				97976E30180FBD7D00EBBDF9 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,7 +690,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 建裕 林 (X6Y86UGQBB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 建裕 林 (X6Y86UGQBB)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -682,8 +705,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "CB43DCAB-B779-4512-90C3-CB90ECF4F0AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB43DCAB-B779-4512-90C3-CB90ECF4F0AF";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -699,15 +724,18 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 建裕 林 (X6Y86UGQBB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 建裕 林 (X6Y86UGQBB)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "CB43DCAB-B779-4512-90C3-CB90ECF4F0AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB43DCAB-B779-4512-90C3-CB90ECF4F0AF";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -719,7 +747,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeiPhoneNewsWeb/WeiPhoneNewsWeb-Prefix.pch";
 				INFOPLIST_FILE = "WeiPhoneNewsWeb/WeiPhoneNewsWeb-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "爱疯新闻";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -730,7 +758,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeiPhoneNewsWeb/WeiPhoneNewsWeb-Prefix.pch";
 				INFOPLIST_FILE = "WeiPhoneNewsWeb/WeiPhoneNewsWeb-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "爱疯新闻";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -754,6 +782,7 @@
 				0FFEEE7D176FFF430073993E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

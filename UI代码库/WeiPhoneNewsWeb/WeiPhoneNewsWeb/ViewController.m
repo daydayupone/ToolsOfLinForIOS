@@ -13,6 +13,7 @@
 #import "MyHeaderCell.h"
 #import "WebViewController.h"
 #import "JSON.h"
+//#import "SVProgressHUD.h"
 
 @interface ViewController ()
 @end
@@ -21,7 +22,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title=@"威锋新闻";
+    self.title=@"爱疯新闻";
     self.newsTitleArrayN=[[NSMutableArray alloc]init];
     self.lookNoArrayN=[[NSMutableArray alloc]init];
     self.dateArrayN=[[NSMutableArray alloc]init];
@@ -56,6 +57,7 @@
         ASIHTTPRequest *req=[ASIHTTPRequest requestWithURL:url];
         req.delegate=self;
         [req startAsynchronous];
+        //[SVProgressHUD showWithStatus:@"抓取新闻…"];
     }
 }
 
@@ -129,6 +131,7 @@
         }
         self.sortedDateArray=[self sortedDate];
     }
+    //[SVProgressHUD showSuccessWithStatus:@"获取成功"];
     [self.table reloadData];
     //创建上拉刷新视图
     [self createFooter];
